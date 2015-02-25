@@ -17,7 +17,7 @@
                       <td><%= product_review.title %></td>
                       <td><%= product_review.description %></td>
                       <td><%= product_review.rating %></td>
-                      <td><%= product_review.user_id %></td>
+                      <td><%= product_review.user.name %></td>
                  </tr>
                     <% end %>
               </tbody>
@@ -41,7 +41,7 @@
                             <td><%= company_review.title %></td>
                             <td><%= company_review.description  %></td>
                             <td><%= company_review.rating %></td>
-                            <td><%= company_review.user_id %></td>
+                            <td><%= company_review.user.name %></td>
                           </tr>
                         <% end %>
                     </tbody>
